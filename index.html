@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohamed Shiras | Graphic Designer & Network Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar" id="navbar">
+  <div class="nav-logo">
+    <span class="logo-bracket">[</span>MS<span class="logo-bracket">]</span>
+  </div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home" class="nav-link active" data-page="home">Home</a></li>
+    <li><a href="#design" class="nav-link" data-page="design">Design</a></li>
+    <li><a href="#networking" class="nav-link" data-page="networking">Networking</a></li>
+    <li><a href="#about" class="nav-link" data-page="about">About</a></li>
+    <li><a href="#contact" class="nav-link" data-page="contact">Contact</a></li>
+    <li><a href="#admin" class="nav-link nav-admin" data-page="admin">⚙ Admin</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ===== PAGE 1: HOME ===== -->
+<section class="page active" id="home">
+  <div class="grid-bg"></div>
+  <div class="hero-container">
+    <div class="hero-tag"><span class="mono">// portfolio_v2026</span></div>
+    <h1 class="hero-title">
+      <span class="hero-name">Mohamed<br>Shiras</span>
+    </h1>
+    <p class="hero-subtitle">Graphic Designer <span class="accent">&</span> Aspiring Network Engineer</p>
+    <p class="hero-tagline">Where visual communication meets complex technical systems.</p>
+    <div class="hero-cta">
+      <button class="btn btn-primary" onclick="navigateTo('design')">
+        <span class="btn-icon">🎨</span> View Design Portfolio
+      </button>
+      <button class="btn btn-outline" onclick="navigateTo('networking')">
+        <span class="btn-icon">🌐</span> View Technical Projects
+      </button>
+    </div>
+    <div class="hero-chips">
+      <div class="chip"><span class="chip-val">5+</span><span class="chip-label">Years Design</span></div>
+      <div class="chip"><span class="chip-val">HND</span><span class="chip-label">Network Eng.</span></div>
+      <div class="chip"><span class="chip-val">3+</span><span class="chip-label">Tech Skills</span></div>
+    </div>
+  </div>
+
+  <div class="summary-strip">
+    <div class="summary-inner">
+      <div class="summary-block">
+        <h3 class="summary-heading">The Creative</h3>
+        <p>Experienced in fast-paced print environments — from packaging labels to large-format banners — with mastery of CMYK pre-press workflows and multilingual design.</p>
+      </div>
+      <div class="summary-divider"></div>
+      <div class="summary-block">
+        <h3 class="summary-heading">The Engineer</h3>
+        <p>Currently pursuing an HND in Network Engineering at ESOFT University, with hands-on workshop experience in Linux systems, ethical hacking, and web infrastructure.</p>
+      </div>
+      <div class="summary-divider"></div>
+      <div class="summary-block">
+        <h3 class="summary-heading">The Advantage</h3>
+        <p>A professional who speaks both the language of beautiful visuals and robust technical systems — a rare combination that benefits any modern team or client.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="page-footer">
+    <div class="footer-inner">
+      <div class="footer-location"><span class="mono">📍</span> Kandy, Sri Lanka</div>
+      <div class="footer-links">
+        <a href="https://linkedin.com" target="_blank" class="footer-link">LinkedIn</a>
+        <span class="footer-sep">·</span>
+        <a href="https://instagram.com/zenthory_creations" target="_blank" class="footer-link">@zenthory_creations</a>
+      </div>
+    </div>
+  </footer>
+</section>
+
+<!-- ===== PAGE 2: DESIGN PORTFOLIO ===== -->
+<section class="page" id="design">
+  <div class="grid-bg"></div>
+  <div class="page-header">
+    <div class="page-tag mono">// design_portfolio</div>
+    <h2 class="page-title">Graphic <span class="accent">&</span> Web Design</h2>
+    <p class="page-subtitle">Visual work built for print, packaging, and the web.</p>
+  </div>
+
+  <div class="featured-project">
+    <div class="featured-badge">★ Featured Project</div>
+    <div class="featured-content">
+      <div class="featured-info">
+        <h3 class="featured-title">Sakura Products — Packaging Design</h3>
+        <p class="featured-desc">
+          A complete product packaging identity for Sakura Products, covering four distinct SKUs: Peanuts, Fried Dhall, Chilli Paste, and Mixtures. Designed for a multilingual market with structured layouts in English, Sinhala, and Tamil, while meeting regulatory data requirements.
+        </p>
+        <div class="featured-tags">
+          <span class="tag">Packaging</span>
+          <span class="tag">Multilingual</span>
+          <span class="tag">CMYK</span>
+          <span class="tag">Regulatory</span>
+        </div>
+        <div class="project-meta">
+          <div class="meta-item"><span class="meta-label">Client</span><span class="meta-val">Sakura Products</span></div>
+          <div class="meta-item"><span class="meta-label">Category</span><span class="meta-val">Packaging Design</span></div>
+          <div class="meta-item"><span class="meta-label">Languages</span><span class="meta-val">EN / SI / TA</span></div>
+        </div>
+      </div>
+      <div class="featured-mockup">
+        <div class="mockup-grid">
+          <div class="mockup-card"><div class="mockup-visual peanuts"><span class="mockup-label">Peanuts</span><div class="mockup-bar"></div></div></div>
+          <div class="mockup-card"><div class="mockup-visual dhall"><span class="mockup-label">Fried Dhall</span><div class="mockup-bar"></div></div></div>
+          <div class="mockup-card"><div class="mockup-visual chilli"><span class="mockup-label">Chilli Paste</span><div class="mockup-bar"></div></div></div>
+          <div class="mockup-card"><div class="mockup-visual mixtures"><span class="mockup-label">Mixtures</span><div class="mockup-bar"></div></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout-strip">
+    <div class="callout-icon">⚙</div>
+    <div class="callout-text">
+      <strong>Pre-Press Expert:</strong> Beyond aesthetics, every design is print-ready — correct CMYK colour profiles, proper bleeds and margins, high-resolution exports, and full file compatibility with commercial print machines.
+    </div>
+  </div>
+
+  <div class="gallery-section">
+    <div class="gallery-filters">
+      <button class="filter-btn active" data-filter="all">All Work</button>
+      <button class="filter-btn" data-filter="large-format">Large Format</button>
+      <button class="filter-btn" data-filter="stationery">Stationery</button>
+      <button class="filter-btn" data-filter="layout">Book Layouts</button>
+      <button class="filter-btn" data-filter="web">Web / UI</button>
+    </div>
+    <div class="gallery-grid" id="designGallery"></div>
+  </div>
+
+  <footer class="page-footer">
+    <div class="footer-inner">
+      <div class="footer-location mono">📍 Kandy, Sri Lanka</div>
+      <div class="footer-links">
+        <a href="https://instagram.com/zenthory_creations" target="_blank" class="footer-link">@zenthory_creations</a>
+      </div>
+    </div>
+  </footer>
+</section>
+
+<!-- ===== PAGE 3: NETWORKING ===== -->
+<section class="page" id="networking">
+  <div class="grid-bg"></div>
+  <div class="page-header">
+    <div class="page-tag mono">// networking_projects</div>
+    <h2 class="page-title">Networking <span class="accent">&</span> IT</h2>
+    <p class="page-subtitle">Technical capabilities built at ESOFT University and beyond.</p>
+  </div>
+
+  <div class="academic-banner">
+    <div class="academic-left">
+      <div class="academic-label mono">Currently Enrolled</div>
+      <h3 class="academic-title">HND in Network Engineering</h3>
+      <p class="academic-uni">ESOFT Metro Campus — Sri Lanka</p>
+    </div>
+    <div class="academic-right">
+      <div class="progress-label mono">Programme Progress</div>
+      <div class="progress-bar-wrap">
+        <div class="progress-bar-fill" style="width:60%"></div>
+      </div>
+      <div class="progress-pct mono">60%</div>
+    </div>
+  </div>
+
+  <div class="skills-matrix">
+    <div class="skills-group">
+      <h4 class="skills-group-title">🌐 Networking</h4>
+      <div class="badge-row">
+        <span class="skill-badge">Basic Networking Principles</span>
+        <span class="skill-badge">OSI Model</span>
+        <span class="skill-badge">Linux System Structure</span>
+        <span class="skill-badge">File Management</span>
+        <span class="skill-badge">TCP/IP</span>
+      </div>
+    </div>
+    <div class="skills-group">
+      <h4 class="skills-group-title">💻 Web & Coding</h4>
+      <div class="badge-row">
+        <span class="skill-badge">HTML / CSS</span>
+        <span class="skill-badge">C#</span>
+        <span class="skill-badge">Python (Scripting)</span>
+        <span class="skill-badge">Git & Version Control</span>
+      </div>
+    </div>
+    <div class="skills-group">
+      <h4 class="skills-group-title">🔐 Digital Security</h4>
+      <div class="badge-row">
+        <span class="skill-badge highlight-badge">Ethical Hacking Workshop</span>
+        <span class="skill-badge">Cyber Threat Awareness</span>
+        <span class="skill-badge">Data Protection Principles</span>
+      </div>
+    </div>
+    <div class="skills-group">
+      <h4 class="skills-group-title">🎨 Design Tools</h4>
+      <div class="badge-row">
+        <span class="skill-badge">Adobe Photoshop</span>
+        <span class="skill-badge">Adobe Illustrator</span>
+        <span class="skill-badge">CorelDRAW</span>
+        <span class="skill-badge">UI/UX Principles</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline-section">
+    <h3 class="section-subtitle">Workshops & Projects</h3>
+    <div class="timeline" id="networkTimeline"></div>
+  </div>
+
+  <div class="callout-strip teal-callout">
+    <div class="callout-icon">⬡</div>
+    <div class="callout-text">
+      <strong>The Web Structure Advantage:</strong> With training in both Graphic Design/UI-UX and Network Engineering, Shiras understands how to create web interfaces that are not only visually compelling but also optimised for server performance and infrastructure constraints.
+    </div>
+  </div>
+
+  <footer class="page-footer">
+    <div class="footer-inner">
+      <div class="footer-location mono">📍 ESOFT Metro Campus, Sri Lanka</div>
+    </div>
+  </footer>
+</section>
+
+<!-- ===== PAGE 4: ABOUT ===== -->
+<section class="page" id="about">
+  <div class="grid-bg"></div>
+  <div class="page-header">
+    <div class="page-tag mono">// about_shiras</div>
+    <h2 class="page-title">The Story <span class="accent">&</span> Resume</h2>
+  </div>
+
+  <div class="about-layout">
+    <div class="about-story">
+      <h3 class="about-section-head">My Journey</h3>
+      <p>My career started with a passion for visual communication — the precision of CMYK colour, the discipline of print pre-press, and the craft of creating designs that speak across language barriers. Working in fast-paced environments like <strong>Mobile Art & Print Shop</strong> and <strong>Nethra Printers</strong> taught me to deliver under pressure, meet tight deadlines, and collaborate within high-performance teams.</p>
+      <p>But curiosity doesn't stay still. The more I designed for digital platforms, the more I became fascinated by the infrastructure beneath the surface — how data moves, how networks are secured, how systems are engineered to scale. That curiosity led me to enrol in the <strong>HND in Network Engineering at ESOFT University</strong>, where I'm now building the technical half of my professional identity.</p>
+      <p>The result? A professional who can design the front-end and understand the back-end. A creative who thinks like an engineer — and an engineer with a designer's eye.</p>
+    </div>
+    <div class="about-strengths">
+      <h3 class="about-section-head">Strengths</h3>
+      <div class="strength-list">
+        <div class="strength-item">
+          <div class="strength-icon">⏱</div>
+          <div><strong>Deadline Driven</strong><p>Trained in fast-paced commercial print environments where delays aren't an option.</p></div>
+        </div>
+        <div class="strength-item">
+          <div class="strength-icon">🤝</div>
+          <div><strong>Team Player</strong><p>Former school football team member — discipline, coordination, and shared goals are second nature.</p></div>
+        </div>
+        <div class="strength-item">
+          <div class="strength-icon">🔁</div>
+          <div><strong>Adaptive Learner</strong><p>Crossed fields from graphic design into network engineering, proving adaptability and growth mindset.</p></div>
+        </div>
+        <div class="strength-item">
+          <div class="strength-icon">🔍</div>
+          <div><strong>Detail Oriented</strong><p>Pre-press expertise demands pixel-level precision — a habit that carries into all technical work.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="edu-section">
+    <h3 class="about-section-head">Education</h3>
+    <div class="edu-timeline">
+      <div class="edu-item">
+        <div class="edu-dot"></div>
+        <div class="edu-year mono">2023 — Present</div>
+        <div class="edu-info"><strong>HND in Network Engineering</strong><span>ESOFT Metro Campus, Sri Lanka</span></div>
+      </div>
+      <div class="edu-item">
+        <div class="edu-dot"></div>
+        <div class="edu-year mono">2022</div>
+        <div class="edu-info"><strong>NVQ Level 4 — Graphic Designing</strong><span>Polgolla, Sri Lanka</span></div>
+      </div>
+      <div class="edu-item">
+        <div class="edu-dot"></div>
+        <div class="edu-year mono">2021</div>
+        <div class="edu-info"><strong>Diploma in Information Technology</strong><span>Sri Lanka</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="resume-download">
+    <div class="resume-text">
+      <h3>Ready to work together?</h3>
+      <p>Download a full copy of my CV to review my experience, skills, and qualifications.</p>
+    </div>
+    <button class="btn btn-primary" onclick="downloadResume()">⬇ Download Resume (PDF)</button>
+  </div>
+
+  <footer class="page-footer">
+    <div class="footer-inner">
+      <div class="footer-location mono">📍 Kandy, Sri Lanka</div>
+    </div>
+  </footer>
+</section>
+
+<!-- ===== PAGE 5: CONTACT ===== -->
+<section class="page" id="contact">
+  <div class="grid-bg"></div>
+  <div class="page-header">
+    <div class="page-tag mono">// contact_hire</div>
+    <h2 class="page-title">Contact <span class="accent">&</span> Hire Me</h2>
+    <p class="page-subtitle">Let's build something great together.</p>
+  </div>
+
+  <div class="contact-layout">
+    <div class="contact-form-wrap">
+      <h3 class="contact-form-title">Send a Message</h3>
+      <div class="contact-form" id="contactForm">
+        <div class="form-group">
+          <label class="form-label mono">// your_name</label>
+          <input type="text" class="form-input" id="contactName" placeholder="Your full name" />
+        </div>
+        <div class="form-group">
+          <label class="form-label mono">// email_address</label>
+          <input type="email" class="form-input" id="contactEmail" placeholder="your@email.com" />
+        </div>
+        <div class="form-group">
+          <label class="form-label mono">// reason_for_contact</label>
+          <select class="form-input form-select" id="contactReason">
+            <option value="">— Select a reason —</option>
+            <option value="design">Graphic Design Project</option>
+            <option value="web">Web / UI Design</option>
+            <option value="it">IT / Networking Project</option>
+            <option value="job">Full-Time Opportunity</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label mono">// your_message</label>
+          <textarea class="form-input form-textarea" id="contactMessage" placeholder="Tell me about your project or opportunity..."></textarea>
+        </div>
+        <button class="btn btn-primary full-btn" onclick="submitContactForm()">Send Message →</button>
+        <div class="form-success" id="formSuccess">✓ Message sent! I'll get back to you shortly.</div>
+      </div>
+    </div>
+
+    <div class="contact-details">
+      <h3 class="contact-form-title">Direct Contact</h3>
+      <div class="detail-list">
+        <div class="detail-item">
+          <span class="detail-icon mono">@</span>
+          <div>
+            <div class="detail-label">Email</div>
+            <a href="mailto:hajialimohamedshiras@gmail.com" class="detail-val">hajialimohamedshiras@gmail.com</a>
+          </div>
+        </div>
+        <div class="detail-item">
+          <span class="detail-icon mono">☎</span>
+          <div>
+            <div class="detail-label">Phone</div>
+            <a href="tel:+94779342223" class="detail-val">+94 77 934 2223</a>
+            <a href="tel:+94786824458" class="detail-val">+94 78 682 4458</a>
+          </div>
+        </div>
+        <div class="detail-item">
+          <span class="detail-icon mono">📍</span>
+          <div>
+            <div class="detail-label">Location</div>
+            <span class="detail-val">Kandy, Sri Lanka</span>
+          </div>
+        </div>
+        <div class="detail-item">
+          <span class="detail-icon mono">🔗</span>
+          <div>
+            <div class="detail-label">LinkedIn</div>
+            <a href="https://linkedin.com" target="_blank" class="detail-val">linkedin.com/in/shiras</a>
+          </div>
+        </div>
+        <div class="detail-item">
+          <span class="detail-icon mono">✦</span>
+          <div>
+            <div class="detail-label">Design Instagram</div>
+            <a href="https://instagram.com/zenthory_creations" target="_blank" class="detail-val">@zenthory_creations</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="page-footer">
+    <div class="footer-inner">
+      <p class="footer-copy mono">© 2026 Mohamed Shiras. Crafted with precision.</p>
+    </div>
+  </footer>
+</section>
+
+<!-- ===== PAGE 6: ADMIN ===== -->
+<section class="page admin-page" id="admin">
+
+  <div class="admin-login-overlay" id="adminLogin">
+    <div class="login-box">
+      <div class="login-logo mono">[MS_ADMIN]</div>
+      <h2 class="login-title">Secure Access</h2>
+      <p class="login-sub mono">// dashboard_v1.0 — authenticated access only</p>
+      <div class="form-group">
+        <label class="form-label mono">// username</label>
+        <input type="text" class="form-input" id="adminUser" placeholder="admin" />
+      </div>
+      <div class="form-group">
+        <label class="form-label mono">// password</label>
+        <input type="password" class="form-input" id="adminPass" placeholder="••••••••" />
+      </div>
+      <button class="btn btn-primary full-btn" onclick="adminLogin()">Login →</button>
+      <div class="login-error" id="loginError">⚠ Invalid credentials. Try: admin / admin123</div>
+    </div>
+  </div>
+
+  <div class="admin-dashboard" id="adminDashboard" style="display:none">
+    <div class="admin-sidebar">
+      <div class="admin-logo mono">[MS_ADMIN]</div>
+      <nav class="admin-nav">
+        <button class="admin-nav-btn active" data-tab="overview">📊 Overview</button>
+        <button class="admin-nav-btn" data-tab="design-mgr">🎨 Design Projects</button>
+        <button class="admin-nav-btn" data-tab="net-mgr">🌐 IT Projects</button>
+        <button class="admin-nav-btn" data-tab="profile-mgr">👤 Profile & Skills</button>
+        <button class="admin-nav-btn" data-tab="inbox">📬 Inbox</button>
+      </nav>
+      <button class="admin-logout" onclick="adminLogout()">⏻ Logout</button>
+    </div>
+
+    <div class="admin-content">
+
+      <!-- Overview -->
+      <div class="admin-tab active" id="tab-overview">
+        <h2 class="admin-section-title">Dashboard Overview</h2>
+        <div class="stat-widgets">
+          <div class="stat-widget"><div class="stat-val" id="statDesign">6</div><div class="stat-label">Design Projects</div></div>
+          <div class="stat-widget"><div class="stat-val" id="statNet">3</div><div class="stat-label">IT Projects</div></div>
+          <div class="stat-widget"><div class="stat-val" id="statMessages">0</div><div class="stat-label">New Messages</div></div>
+          <div class="stat-widget"><div class="stat-val" id="statSkills">12</div><div class="stat-label">Skills Listed</div></div>
+        </div>
+        <h3 class="admin-sub-title">Recent Messages</h3>
+        <div class="recent-messages" id="recentMessages">
+          <div class="empty-state mono">// No messages yet. Inbox is clear.</div>
+        </div>
+        <h3 class="admin-sub-title">Quick Actions</h3>
+        <div class="quick-actions">
+          <button class="btn btn-primary" onclick="switchAdminTab('design-mgr')">+ Add Design Project</button>
+          <button class="btn btn-outline" onclick="switchAdminTab('net-mgr')">+ Add IT Project</button>
+          <button class="btn btn-outline" onclick="switchAdminTab('inbox')">📬 View Inbox</button>
+        </div>
+      </div>
+
+      <!-- Design Manager -->
+      <div class="admin-tab" id="tab-design-mgr">
+        <h2 class="admin-section-title">🎨 Design Project Manager</h2>
+        <div class="admin-form-card">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label mono">// project_title</label>
+              <input type="text" class="form-input" id="dp-title" placeholder="e.g. Sakura Products Packaging" />
+            </div>
+            <div class="form-group">
+              <label class="form-label mono">// client_name</label>
+              <input type="text" class="form-input" id="dp-client" placeholder="Client or Personal" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label mono">// category</label>
+            <select class="form-input form-select" id="dp-category">
+              <option value="Packaging">Packaging</option>
+              <option value="Branding">Branding</option>
+              <option value="Layout">Book Layout</option>
+              <option value="Web Design">Web Design</option>
+              <option value="Large Format">Large Format</option>
+              <option value="Stationery">Stationery</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label mono">// description</label>
+            <textarea class="form-input form-textarea" id="dp-desc" placeholder="Brief description of the project..."></textarea>
+          </div>
+          <div class="form-group">
+            <label class="form-label mono">// upload_mockup</label>
+            <div class="file-drop" id="dpDropZone" ondragover="handleDragOver(event)" ondrop="handleDrop(event,'dp')">
+              <div class="file-drop-icon">⬆</div>
+              <div class="file-drop-text">Drag & drop mockup images here<br><span class="mono">or click to browse</span></div>
+              <input type="file" id="dpFile" accept="image/*" style="display:none" onchange="handleFileSelect(event,'dp')" />
+              <button class="btn btn-outline small-btn" onclick="document.getElementById('dpFile').click()">Browse Files</button>
+            </div>
+            <div class="file-preview" id="dpFilePreview"></div>
+          </div>
+          <button class="btn btn-primary" onclick="addDesignProject()">Save Design Project</button>
+        </div>
+        <h3 class="admin-sub-title">Existing Projects</h3>
+        <div class="projects-list" id="adminDesignList"></div>
+      </div>
+
+      <!-- IT Manager -->
+      <div class="admin-tab" id="tab-net-mgr">
+        <h2 class="admin-section-title">🌐 IT & Networking Project Manager</h2>
+        <div class="admin-form-card">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label mono">// project_title</label>
+              <input type="text" class="form-input" id="np-title" placeholder="e.g. Linux Ground Zero Workshop" />
+            </div>
+            <div class="form-group">
+              <label class="form-label mono">// date</label>
+              <input type="date" class="form-input" id="np-date" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label mono">// tech_stack_tags (comma separated)</label>
+            <input type="text" class="form-input" id="np-tags" placeholder="Linux, Cisco, Python, AWS" />
+          </div>
+          <div class="form-group">
+            <label class="form-label mono">// description</label>
+            <textarea class="form-input form-textarea" id="np-desc" placeholder="What did you learn or build?"></textarea>
+          </div>
+          <div class="form-group">
+            <label class="form-label mono">// upload_diagram</label>
+            <div class="file-drop" id="npDropZone" ondragover="handleDragOver(event)" ondrop="handleDrop(event,'np')">
+              <div class="file-drop-icon">⬆</div>
+              <div class="file-drop-text">Upload network topology or architecture diagram<br><span class="mono">or click to browse</span></div>
+              <input type="file" id="npFile" accept="image/*,.pdf" style="display:none" onchange="handleFileSelect(event,'np')" />
+              <button class="btn btn-outline small-btn" onclick="document.getElementById('npFile').click()">Browse Files</button>
+            </div>
+            <div class="file-preview" id="npFilePreview"></div>
+          </div>
+          <button class="btn btn-primary" onclick="addNetProject()">Save IT Project</button>
+        </div>
+        <h3 class="admin-sub-title">Existing Projects</h3>
+        <div class="projects-list" id="adminNetList"></div>
+      </div>
+
+      <!-- Profile & Skills -->
+      <div class="admin-tab" id="tab-profile-mgr">
+        <h2 class="admin-section-title">👤 Profile & Skills Manager</h2>
+        <div class="admin-form-card">
+          <h3 class="admin-sub-title">Resume PDF</h3>
+          <div class="file-drop">
+            <div class="file-drop-icon">📄</div>
+            <div class="file-drop-text">Upload your latest CV/Resume PDF<br><span class="mono">This will be served on the Download button</span></div>
+            <input type="file" id="resumeFile" accept=".pdf" style="display:none" onchange="handleResumeUpload(event)" />
+            <button class="btn btn-outline small-btn" onclick="document.getElementById('resumeFile').click()">Upload PDF</button>
+          </div>
+          <div id="resumeStatus" class="mono" style="margin-top:0.5rem;color:var(--accent);display:none">✓ Resume uploaded successfully.</div>
+        </div>
+        <div class="admin-form-card">
+          <h3 class="admin-sub-title">Skills Checklist</h3>
+          <div class="skills-add-row">
+            <input type="text" class="form-input" id="newSkillInput" placeholder="e.g. Adobe XD, Cisco IOS..." />
+            <select class="form-input form-select" id="newSkillCategory" style="max-width:180px">
+              <option value="Networking">Networking</option>
+              <option value="Web & Coding">Web & Coding</option>
+              <option value="Digital Security">Digital Security</option>
+              <option value="Design Tools">Design Tools</option>
+            </select>
+            <button class="btn btn-primary small-btn" onclick="addSkill()">+ Add</button>
+          </div>
+          <div class="skills-preview" id="skillsPreview"></div>
+        </div>
+      </div>
+
+      <!-- Inbox -->
+      <div class="admin-tab" id="tab-inbox">
+        <h2 class="admin-section-title">📬 Contact Form Inbox</h2>
+        <div class="inbox-list" id="inboxList">
+          <div class="empty-state mono">// Inbox is empty. Messages will appear here.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
